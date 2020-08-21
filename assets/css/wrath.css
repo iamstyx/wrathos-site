@@ -39,19 +39,16 @@ body {
     justify-content: center;
 }
 
-#footer > * {
-    width: auto;
-}
-
 #footer > h2 {
-    width: auto;
-    justify-content: center;
+    margin: auto;
     margin-bottom: 1.5em;
+    width: auto;
 }
 
 #links {
     display: flex;
     width: 100%;
+    margin: auto;
     justify-content: center;
 }
 
@@ -66,4 +63,26 @@ body {
 
 #wrath_footer > p {
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 736px) {
+    
+    #links {
+        flex-direction: column;
+    }
+
+    #wrath_footer {
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width: 980px) {
+
+    #footer > h2 {
+        margin-bottom: 1.5em;
+        text-align: center;
+    }
+
+    #footer .copyright {
+        text-align: center!important;
+    }
 }
