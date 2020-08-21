@@ -21,20 +21,18 @@
 		
 function dak(){
 	document.getElementById("xd").onclick = function() {DarkReader.disable();lit()};
-	document.getElementById('xx').innerHTML 
-                = 'light mode';
+	
 	
     document.getElementById('ls').src="images/lit.svg";    
 }
 	function lit(){
 	document.getElementById("xd").onclick = function() {DarkReader.enable();dak();};
-		document.getElementById('xx').innerHTML 
-                = 'dark mode'; 
+		
 		document.getElementById('ls').src="images/drk.svg"; 
 }	
 </script>
-		<button class="drk" id="xd" onclick="DarkReader.enable(); dak();">
-	<img src="images/drk.svg" id = "ls"  ><span id="xx">dark mode</span></img></button>
+		<div class="drk" id="xd" onclick="DarkReader.enable(); dak();">
+	<img src="drk.svg" id = "ls"  ></img></div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
