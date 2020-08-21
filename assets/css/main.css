@@ -3785,26 +3785,26 @@ input, select, textarea {
 		}
 
 .drk {
-    margin-left: 50px;
+    margin-left: 27px;
     margin-top: 8px;
     border-radius: 25px;
     background: #000000;
-    padding-top: 2px;
+    padding-top: 4px;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 5px;
     padding-bottom: 0px;
-    width: 150px;
+    width: 50px;
     height: 50px;
 }
 .drk:hover {
-    margin-left: 50px;
+ margin-left: 27px;
     margin-top: 8px;
     border-radius: 25px;
-    background: #1C1C1C;
-    padding-top: 2px;
+    background: #1c1c1c;
+    padding-top: 4px;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 5px;
     padding-bottom: 0px;
-    width: 150px;
+    width: 50px;
     height: 50px;
 }
