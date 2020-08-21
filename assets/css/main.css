@@ -100,11 +100,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #ff0046;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ff0046 15%, #fd6330 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ff0046 15%, #fd6330 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ff0046 15%, #fd6330 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #ff0046 15%, #fd6330 85%);
+    background-color: #ff0046;
+   background-image: url("images/overlay.png"), linear-gradient(45deg, #000018 15%, #050662 85%) !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1840,7 +1837,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 8px;
+		border-radius: 20px;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -1958,9 +1955,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
-			color: #ffffff !important;
-			box-shadow: none;
+    background-color: #5632FF;
+    color: #ffffff !important;
+    box-shadow: none;
 		}
 
 			input[type="submit"].primary:hover,
@@ -1968,7 +1965,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+    background-color: #6D78FD;
 			}
 
 			input[type="submit"].primary:active,
@@ -1976,7 +1973,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+    background-color: #5632FF;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -3087,7 +3084,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 2em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3222,9 +3219,9 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
-		border-top-left-radius: 0.25em;
-		border-top-right-radius: 0.25em;
+		background-color: #e8e8e8;
+		border-top-left-radius: 50px;
+		border-top-right-radius: 50px;
 		cursor: default;
 		text-align: center;
 	}
@@ -3289,7 +3286,7 @@ input, select, textarea {
 					line-height: 2.25em;
 					padding: 0 1.25em;
 					border: 0;
-					border-radius: 8px;
+					border-radius: 15px;
 					box-shadow: inset 0 0 0 1px transparent;
 				}
 
@@ -3303,13 +3300,15 @@ input, select, textarea {
 					}
 
 		#nav.alt {
-			position: fixed;
-			top: 0;
-			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
-			border-top-left-radius: 0;
-			border-top-right-radius: 0;
-			z-index: 10000;
+    position: fixed;
+    top: 0;
+    padding: 0.5em 1em;
+    background-color: rgba(230,230,230,0.95);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 10000;
 		}
 
 			#nav.alt ul li {
@@ -3337,7 +3336,7 @@ input, select, textarea {
 	#main {
 		background-color: #ffffff;
 		color: #636363;
-		border-radius: 0.25em;
+		border-radius: 50px;
 	}
 
 		#main input, #main select, #main textarea {
@@ -3412,9 +3411,9 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
-				color: #ffffff !important;
-				box-shadow: none;
+    background-color: #EE6D43;
+    color: #ffffff !important;
+    box-shadow: none;
 			}
 
 				#main input[type="submit"].primary:hover,
@@ -3422,7 +3421,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+    background-color: #FD6330;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3430,7 +3429,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #7ec3ee;
+    background-color: #FF4001;
 				}
 
 				#main input[type="submit"].primary.icon:before,
@@ -3784,3 +3783,28 @@ input, select, textarea {
 			}
 
 		}
+
+.drk {
+    margin-left: 50px;
+    margin-top: 8px;
+    border-radius: 25px;
+    background: #000000;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 50px;
+}
+.drk:hover {
+    margin-left: 50px;
+    margin-top: 8px;
+    border-radius: 25px;
+    background: #1C1C1C;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 50px;
+}
