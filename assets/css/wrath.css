@@ -8,6 +8,13 @@ body {
     max-height: 180px;
 }
 
+#main {
+    border-radius: 50px!important;
+}
+
+#nav {
+    border-radius: 50px!important;
+}
 /* Downloads */
 #downloads {
     display: flex;
@@ -102,4 +109,12 @@ button.primary,
 #main .button.primary {
 	background-color: #753a88!important;
 
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    border-radius: 20px; 
 }
