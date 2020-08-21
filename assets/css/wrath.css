@@ -1,7 +1,11 @@
 body {
     scroll-behavior: smooth;	
+    background-color: #ff0046;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #000018 15%, #050662 85%)!important;
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #000018 15%, #050662 85%)!important;
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #000018 15%, #050662 85%)!important;
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #000018 15%, #050662 85%)!important;
 }
-
 .avatar > img {
     border-radius: 50%;
     max-width: 180px;
@@ -99,7 +103,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-	background-color: #753a88!important;
+	background-color: #00154f!important;
 }
         
 #main input[type="submit"].primary,
@@ -107,7 +111,7 @@ button.primary,
 #main input[type="button"].primary,
 #main button.primary,
 #main .button.primary {
-	background-color: #753a88!important;
+	background-color: #00154f!important;
 
 }
 
