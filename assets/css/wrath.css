@@ -19,32 +19,6 @@ body {
 #nav {
     border-radius: 50px!important;
 }
-/* Downloads */
-#downloads {
-    display: flex;
-    padding: 1em;
-}
-
-#left {
-    margin: 0;
-    padding: 0;
-    flex-grow: 1;
-    max-width: 350px;
-}
-
-#left > ul {
-    list-style-type: none;
-    padding: 0 1em 0 0;
-    margin: 0;
-}
-
-#right {
-    margin: 0;
-    padding: 0;
-    flex-grow: 4;
-    border: 1px rgba(222, 222, 222, 0.75) solid;
-    border-radius: 8px;
-}
 
 #footer {
     justify-content: center;
