@@ -94,6 +94,12 @@ body {
     margin-bottom: 0;
 }
 
+#wrath_footer > h2 {
+	font-weight: 400;
+	font-size: 25px;
+	text-align: center;
+}
+
 #wrath_footer > p {
     margin-bottom: 1em;
 }
