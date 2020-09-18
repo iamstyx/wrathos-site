@@ -4,19 +4,17 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>Generic - Stellar by HTML5 UP</title>
+		<title>WrathOS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"/>
+		<link rel=stylesheet href=assets/css/wrap-carousel.css />
 		<link rel="stylesheet" href="assets/css/wrath.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+		<link rel="stylesheet" href="assets/css/downloads.css" />
 	</head>
 	<body class="is-preload">
 
@@ -25,188 +23,72 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1 id="total">Downloads</h1>			<div class="block">
-                  
-                  <p class="counter-wrapperq"><span class="coffeeq"></span></p>
-                 
-              </div>
+						<h1 id="total">Downloads</h1>
 						<p style="color: antiquewhite;">Find WrathOS for your device here!</p>
-						<a href="../index.html" class="button primary small" style="margin-bottom: 2em;"><i class="fas fa-undo-alt" style="margin-right: 1em;"></i>Back</a>
+						<a href="index.html" class="button primary small" style="margin-bottom: 2em;"><i class="fas fa-undo-alt" style="margin-right: 1em;"></i>Back</a>
 					</header>
 
-				<!-- Main -->
-			
-        <div class="container1" style="background: rgba(35,35,35,1.00); border-radius: 50px;padding: 40px;">
-			<div class="block">
-                  
-                  <p class="counter-wrapper"><span class="coffee"></span></p>
-                 
-              </div>
-  	<h3>Officially Supported Devices:</h3>  
-			
-			<ul>
-  <li><button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#Redmi" >Redmi</button>
-  <div id="Redmi" class="collapse" style="color: aliceblue;">
+				<!-- Device list -->
+					<div id="downloads">
+						<div id="device-list">
+							<div id="poco-button" class="oem-button" onClick="shareListHideShow('poco')">Pocophone</div>
+							<div id="poco" class="oem hide">
+								<div class="device-name" id="beryllium">
+									<p>Pocophone F1 <span>beryllium</span></p>
+								</div>
+							</div>
+							<div id="redmi-button" class="oem-button" onClick="shareListHideShow('redmi')">Redmi</div>
+							<div id="redmi" class="oem hide">
+								<div class="device-name" id="raphael">
+									<p>K20 Pro <span>raphael</span></p>
+								</div>
+								<div class="device-name" id="mido">
+									<p>Note 4 <span>mido</span></p>
+								</div>
+								<div class="device-name" id="lavender">
+									<p>Note 7 <span>lavender</span></p>
+								</div>
+								<div class="device-name" id="violet">
+									<p>Note 7 Pro <span>violet</span></p>
+								</div>
+								<div class="device-name" id="ginkgo">
+									<p>Note 8/8T <span>ginkgo/willow</span>
+								</div>
+								<div class="device-name" id="begonia">
+									<p>Note 8 Pro <span>begonia</span></p>
+								</div>
+							</div>
+							<div id="realme-button" class="oem-button" onClick="shareListHideShow('realme')">Realme</div>
+							<div id="realme" class="oem hide">
+								<div class="device-name" id="RMX1971">
+									<p>Realme 5 Pro <span>RMX1971</span></p>
+								</div>
+							</div>
+						</div>
+						<div id="view">
+							<p class="center">Select device</p>
+						</div>
+					</div>
 
-	  
-	  
-<div style="background: rgba(23,23,23,1.00);border-radius: 30px;padding: 10px;margin-top: 20px;">
+				<!-- Footer -->
+				<footer id="footer" class="downloads">
+					<h1>Some stats</h1>
+					<div id="links">
+						<section id="wrath_footer">
+							<h3>8</h3>
+							<h2>Currently supported devices</h2>
+							<h3>123123</h3>
+							<h2>Downloads</h2>
+						</section>
+					</div>
+					<p class="copyright">&copy; Wrath. Design: <a >Wrath Team</a>.</p>
+				</footer>
 
-  <br>
-  <!-- Nav pills -->
-  <ul class="nav nav-pills" role="tablist">
-    <li class="nav-item">
-      <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#r4" >Xiaomi Redmi Note 4</button>
-		<div id="r4" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 3.png" alt="xd" /> <b id="rn44">404</b> <button type="button" id="rn4d" onClick="parent.open('404.html')" class="btn btn-success" >download</button> </p></div>
-    </li>
- 
-	 <li class="nav-item">
-     <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#r7" >Xiaomi Redmi Note 7</button>
-		<div id="r7" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 4.png" alt="xd" /> <b id="rn77">404</b> <button type="button" id="rn7d" onClick="parent.open('404.html')"  class="btn btn-success">download</button> </p></div>
-    </li>
-	<li class="nav-item">
-     <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#r7p" >Xiaomi Redmi Note 7 pro</button>
-		<div id="r7p" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 4.png" alt="xd" /><b id="rn77p">404</b> <button type="button" id="rn7pd" onClick="parent.open('404.html')"  class="btn btn-success">download</button> </p></div>
-    </li>
-	<li class="nav-item">
-     <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#r8" >Xiaomi Redmi Note 8/8T</button>
-		<div id="r8" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 2.png" alt="xd" /><b id="rn88">404</b> <button type="button" id="rn8d" onClick="parent.open('404.html')" class="btn btn-success">download</button> </p></div>
-    </li>
-	  <li class="nav-item">
-     <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#r8p" >Xiaomi Redmi Note 8 pro</button>
-		<div id="r8p" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 2.png" alt="xd" /> <b id="rn88p">404</b> <button type="button"  id="rn8pd" onClick="parent.open('404.html')" class="btn btn-success">download</button> </p></div>
-    </li>
-	  <li class="nav-item">
-     <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#rk20" >Xiaomi Mi 9T Pro/K20 Pro</button>
-		<div id="rk20" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 1.png" alt="xd" /> <b id="k20pp">404</b> <button type="button" id="k20pd" onClick="parent.open('404.html')"  class="btn btn-success">download</button> </p></div>
-    </li>
-  </ul>
+			</div>
 
-  
-</div>
-
-  </div>
-		</li>
-  <li><button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#Pocophone">Pocophone</button>
-  <div id="Pocophone" class="collapse" style="color: aliceblue;">
-	  
-	  
-<div style="background: rgba(23,23,23,1.00);border-radius: 30px;padding: 10px;margin-top: 20px;">
-
-  <br>
-  <!-- Nav pills -->
-  <ul class="nav nav-pills" role="tablist">
-    <li class="nav-item">
-      <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#pff1" >Xiaomi Pocophone F1</button>
-			<div id="pff1" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 6.png" alt="xd" /> <b id="pf1">404</b> <button type="button" id="pf1d" onClick="parent.open('404.html')"  class="btn btn-success">download</button> </p></div>
-    </li>
-  
-  </ul>
-
- 
-</div>
-
-
-  </div></li>
-  <li><button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#Realme">Realme</button>
-  <div id="Realme" class="collapse" style="color: aliceblue;">
-	  
-	  
-<div style="background: rgba(23,23,23,1.00);border-radius: 30px;padding: 10px;margin-top: 20px;">
-
-  <br>
-  <!-- Nav pills -->
-  <ul class="nav nav-pills" role="tablist">
-    <li class="nav-item">
-           <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#re5p" >Realme 5 Pro</button>
-		<div id="re5p" class="collapse" style="color: aliceblue;background: #000;border-radius: 40px;margin:10px;padding: 5px;"><p style="text-align: center;"><img src="images/8 – 2.png" alt="xd" /> <b id="r5p">404</b> <button type="button" id="r5pd" onClick="parent.open('404.html')"  class="btn btn-success">download</button> </p></div>
-    </li>
-  </ul>
-
-</div>
-
-
-  </div></li>
-</ul>  
-		
-</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-				<script>
-	fetch('https://sourceforge.net/projects/wrathos/files/stats/json?start_date=2020-05-29&end_date=2020-12-31').then(function(total1) {
-        return total1.json();
-    }).then(function(t1) {
-
-            console.log(t1);
-      
-            $('#counter-block').ready(function() {
-                $('.coffeeq').animationCounter({
-                    start: 0,
-                    end: t1.total,
-                    step: 11,
-                    delay: 10,
-                });
-            });
-		
-		});
-    
-</script>
-		
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/animationCounter.js" charset="utf-8"></script>
-    <script type="text/javascript">
-		    fetch('https://raw.githubusercontent.com/WrathOS-Development/wrathos-site/test1/assets/maintainers.json').then(function (response){
-		return response.json();
-	}).then(function (obj){
-		
-		console.log(obj);
-         document.getElementById("rn44").innerHTML = "Maintainer :" + obj.rn4;
-		  document.getElementById("rn77").innerHTML = "Maintainer :" + obj.rn7;
-		  document.getElementById("rn77p").innerHTML = "Maintainer :" + obj.rn7p;
-		  document.getElementById("rn88").innerHTML = "Maintainer :" + obj.rn8;
-		  document.getElementById("rn88p").innerHTML = "Maintainer :" + obj.rn8p;
-		  document.getElementById("k20pp").innerHTML = "Maintainer :" + obj.k20p;
-		  document.getElementById("pf1").innerHTML = "Maintainer :" + obj.pocof1;
-				document.getElementById("r5p").innerHTML = "Maintainer :" + obj.real5p;
-
-    });
-		
-			$('#counter-block').ready(function(){
-        $('.coffee').animationCounter({
-          start: 0,
-          end: 8,
-          step: 2,
-          delay: 1000,
-        });			
-		
-				
-			
-
-	});
-    
-    </script>		
-				
-				
-				    <script type="text/javascript">
-		    fetch('https://raw.githubusercontent.com/WrathOS-Development/wrathos-site/test1/assets/maintainers.json').then(function (response1){
-		return response1.json();
-	}).then(function (obj1){
-		
-		console.log(obj1);
-	
-				document.getElementById("rn4d").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/');" );
-				document.getElementById("rn7d").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/');" );
-                document.getElementById("rn7pd").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/'); " );
-				document.getElementById("rn8d").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/'); " );
-				document.getElementById("rn8pd").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/'); " );
-				document.getElementById("k20pd").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/'); " );
-				document.getElementById("pf1d").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/'); " );
-				document.getElementById("r5pd").setAttribute( "onClick", "parent.open('https://sourceforge.net/projects/wrathos/files/ginkgo/'); " );
-    });
-
-    
-    </script>		
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
@@ -214,7 +96,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-			<script src="assets/js/wrath.js"></script>
-
+			<script src="assets/js/downloads.js"></script>
 	</body>
 </html>
